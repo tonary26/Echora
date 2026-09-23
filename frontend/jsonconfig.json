@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "allowJs": true,
+      "checkJs": false,
+      "target": "ESNext",
+      "module": "ESNext",
+      "moduleResolution": "Bundler",
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["src/*"]
+      }
+    },
+    "include": [
+      "src/**/*.js",
+      "src/**/*.vue",
+      "src/**/*.d.ts"
+    ],
+    "exclude": [
+      "node_modules",
+      "dist"
+    ]
+  }

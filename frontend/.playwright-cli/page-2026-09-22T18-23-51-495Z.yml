@@ -1,0 +1,73 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e9]:
+    - complementary [ref=f1e10]:
+      - generic [ref=f1e11]: Echora
+      - navigation "Основная навигация" [ref=f1e13]:
+        - button "Библиотека 3" [ref=f1e14] [cursor=pointer]:
+          - text: Библиотека
+          - generic [ref=f1e18]: "3"
+        - button "Загрузить" [ref=f1e19] [cursor=pointer]
+      - generic [ref=f1e23]:
+        - generic [ref=f1e24]: А
+        - generic [ref=f1e25]:
+          - strong [ref=f1e26]: Анна
+          - generic [ref=f1e27]: anna@echora.test
+        - button "Выйти" [ref=f1e28] [cursor=pointer]
+    - main [ref=f1e31]:
+      - generic [ref=f1e32]:
+        - generic [ref=f1e33]:
+          - heading [level=1] [ref=f1e34]:
+            - text: Ваша музыка.
+            - emphasis [ref=f1e35]: Без лишнего шума.
+          - paragraph [ref=f1e36]: Личная аудиотека — загружайте записи и продолжайте слушать с любого трека.
+        - button "Закрыть" [expanded] [active] [ref=f1e121] [cursor=pointer]
+      - region [ref=f1e122]:
+        - button [ref=f1e123] [cursor=pointer]:
+          - generic [ref=f1e128]:
+            - heading "Перетащите аудиофайл сюда" [level=2] [ref=f1e129]
+            - paragraph [ref=f1e130]: или нажмите, чтобы выбрать · до 100 МБ
+      - region [ref=f1e41]:
+        - generic [ref=f1e42]:
+          - generic [ref=f1e43]:
+            - heading "Библиотека" [level=2] [ref=f1e44]
+            - paragraph [ref=f1e45]: 3 треков
+          - button "Обновить" [ref=f1e46] [cursor=pointer]
+        - list [ref=f1e49]:
+          - listitem [ref=f1e50]:
+            - button "Midnight Static MP3 · 22 сент." [ref=f1e51] [cursor=pointer]:
+              - generic [ref=f1e56]:
+                - strong [ref=f1e57]: Midnight Static
+                - generic [ref=f1e58]: MP3 · 22 сент.
+            - generic [ref=f1e59]: "01"
+            - button "Воспроизвести Midnight Static" [ref=f1e60] [cursor=pointer]
+          - listitem [ref=f1e63]:
+            - button "Glass Corridors WAV · 21 сент." [ref=f1e64] [cursor=pointer]:
+              - generic [ref=f1e69]:
+                - strong [ref=f1e70]: Glass Corridors
+                - generic [ref=f1e71]: WAV · 21 сент.
+            - generic [ref=f1e72]: "02"
+            - button "Воспроизвести Glass Corridors" [ref=f1e73] [cursor=pointer]
+          - listitem [ref=f1e76]:
+            - button "Concrete Bloom FLAC · 20 сент." [ref=f1e77] [cursor=pointer]:
+              - generic [ref=f1e82]:
+                - strong [ref=f1e83]: Concrete Bloom
+                - generic [ref=f1e84]: FLAC · 20 сент.
+            - generic [ref=f1e85]: "03"
+            - button "Воспроизвести Concrete Bloom" [ref=f1e86] [cursor=pointer]
+    - contentinfo [ref=f1e89]:
+      - generic [ref=f1e93]:
+        - strong [ref=f1e94]: Выберите трек
+        - generic [ref=f1e95]: Ваша библиотека готова
+      - generic [ref=f1e96]:
+        - generic [ref=f1e97]:
+          - button "Предыдущий трек" [ref=f1e98] [cursor=pointer]
+          - button "Воспроизвести" [ref=f1e101] [cursor=pointer]
+          - button "Следующий трек" [ref=f1e104] [cursor=pointer]
+        - generic [ref=f1e107]:
+          - generic [ref=f1e108]: 0:00
+          - slider "Позиция трека" [ref=f1e109] [cursor=pointer]: "0"
+          - generic [ref=f1e110]: 0:00
+      - slider "Громкость" [ref=f1e114] [cursor=pointer]: "0.82"
+  - generic [ref=f1e2]:
+    - generic "Toggle devtools panel" [ref=f1e3] [cursor=pointer]
+    - generic "Toggle Component Inspector" [ref=f1e116] [cursor=pointer]
